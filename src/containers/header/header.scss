@@ -1,0 +1,29 @@
+.head{
+    width: 100%;
+    height: 40px;
+    display: flex;
+   .head-left{
+       flex: 2;
+        text-align: center;
+        line-height: 40px;
+        font-size: 16px;
+   }
+   .head-right{
+      flex: 6;
+      text-align: center;
+      margin-right: 4%;
+      position: relative;
+      line-height: 40px;
+      input{
+          width: 100%;
+          height: 30px;
+          outline: none;
+          padding-left: 30px;
+          border: 1px solid #ccc;
+          border-radius: 3px;
+          background-color: #ffffff;
+          box-sizing: border-box;
+      }
+
+   }
+}
